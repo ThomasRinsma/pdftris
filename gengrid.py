@@ -35,7 +35,7 @@ endobj
 16 0 obj
 <<
   /Annots 21 0 R
-  /Contents << >>
+  /Contents 3 0 R
   /CropBox [
     0.0
     0.0
@@ -54,6 +54,12 @@ endobj
   /Rotate 0
   /Type /Page
 >>
+endobj
+
+3 0 obj
+<< >>
+stream
+endstream
 endobj
 
 17 0 obj
