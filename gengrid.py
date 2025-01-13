@@ -7,17 +7,20 @@ PDF_FILE_TEMPLATE = """
   /AcroForm <<
     /Fields [ ###FIELD_LIST### ]
   >>
-  /Pages <<
-    /Count 1
-    /Kids [
-      16 0 R
-    ]
-    /Type /Pages
-  >>
+  /Pages 2 0 R
   /OpenAction 17 0 R
   /Type /Catalog
 >>
 endobj
+
+2 0 obj
+<<
+  /Count 1
+  /Kids [
+    16 0 R
+  ]
+  /Type /Pages
+>>
 
 %% Annots Page 1 (also used as overall fields list)
 21 0 obj
@@ -32,7 +35,7 @@ endobj
 16 0 obj
 <<
   /Annots 21 0 R
-  /Contents << >>
+  /Contents 3 0 R
   /CropBox [
     0.0
     0.0
@@ -45,12 +48,18 @@ endobj
     612.0
     792.0
   ]
-  /Parent 7 0 R
+  /Parent 2 0 R
   /Resources <<
   >>
   /Rotate 0
   /Type /Page
 >>
+endobj
+
+3 0 obj
+<< >>
+stream
+endstream
 endobj
 
 17 0 obj
